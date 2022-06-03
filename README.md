@@ -1,6 +1,7 @@
-# Softmax Exploring MAB Problem
+# Softmax/UCB Exploring MAB Problem
 Playing a 10-armed Bandit and making a lot of money :)
 
+## Softmax
 ```
 ➜   python softmax_bandits.py
 
@@ -30,4 +31,23 @@ Arm
 7    0.9999408760%
 8    0.0000000004%
 9    0.0000004205%
+```
+
+## UCB
+```
+➜   python confidence_bandits.py
+
+Total reward: 99.98%
+
+   Predicted      Real
+0  -0.890769 -2.489350
+1  -1.493287 -0.858175
+2   0.479745  0.702299
+3  -0.293562 -0.224154
+4  -0.599461  0.188756
+5  -1.201124 -0.238165
+6  -0.278422  0.447732
+7  -2.173969 -1.557582
+8   2.165586  2.165712
+9  -1.081698 -0.228588
 ```
